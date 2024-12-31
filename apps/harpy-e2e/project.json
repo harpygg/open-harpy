@@ -1,0 +1,10 @@
+{
+  "name": "harpy-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/harpy-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["harpy"],
+  "// targets": "to see all targets run: nx show project harpy-e2e --web",
+  "targets": {}
+}
