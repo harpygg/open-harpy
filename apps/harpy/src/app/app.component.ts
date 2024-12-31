@@ -3,10 +3,12 @@ import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
+  selector: 'h-root',
+  template: `
+    <h-nx-welcome />
+    <router-outlet />
+  `,
   imports: [NxWelcomeComponent, RouterModule],
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'harpy';
